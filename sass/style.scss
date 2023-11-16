@@ -130,16 +130,6 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
-    @media (max-width:426px) {
-        .header__burger {
-            display: block;
-        }
-
-        .menu {
-            display: none;
-        }
-    }
 }
 
 .header__burger {
